@@ -15,7 +15,8 @@ const pergunta = [
     { 
         enunciado: "como combater a esigulae social no mundo em que vivemos",
         alternativa:["politica de redistribuição de rend e oprtunidades"]
-        
+        implementar
+
      },
 ];
 let tual=0;
