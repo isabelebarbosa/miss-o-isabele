@@ -5,14 +5,24 @@ const caixaResultado = document.querySelector("caixa-resultado");
 const textoResultado = document.querySelector("texto-resultado");
 
 const pergunta = [
-     {//primeiro objeto da lista de perguntas
-        enunciado: "pergunta1",
-        alternativa:["alternativa1", "alternativa2"]
+     {
+        enunciado: "como combater o dematamnto",
+        alternativa:[
+            "reflorecimento de areas degradadas"
+            "implementação de leis mais rigorosas para a aproteção das floretas"
+      ]
      },
-    {//segundo objeto da lista de perguntas
-        enunciado: "pergunta2",
-        alternativa:["alternativa1", "alternativa2"]
+    { 
+        enunciado: "como combater a esigulae social no mundo em que vivemos",
+        alternativa:["politica de redistribuição de rend e oprtunidades"]
+        
      },
-    
+];
+let tual=0;
+let perguntaAtual;
 
-]
+function monstraPergunta(){
+   perguntaAtul=perguntas [atual];
+   caixaPerguntas.textContent=perguntaAtual.enuciado;
+}
+mostraPergunta();
