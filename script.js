@@ -24,6 +24,18 @@ let perguntaAtual;
 
 function monstraPergunta(){
    perguntaAtul=perguntas [atual];
-   caixaPerguntas.textContent=perguntaAtual.enuciado;
+   caixaPerguntas.textContent=perguntaAtual.enunciado;
+   caixaAlternativas.textContent = "";
+   mostraAlternativas();
+}
+
+function mostraAlternativas(){
+   for(const alternativa of perguntaAtual.alternativas){
+      const botãoAlternativas = document.createElement("button");
+      botãoAlternativas = textContent = alternativa;
+      caixaAlternativas.appendChild(botaoAlternativas);
+   }
+
+
 }
 mostraPergunta();
